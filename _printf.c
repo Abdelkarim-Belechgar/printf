@@ -12,9 +12,8 @@ void print_buffer(char buffer[], int buff_ind);
  * @format: format.
  * @charformat: const
  * Return: Printed chars.
- * format: format
  */
-int _printf(const charformat, ...)
+int _printf(const char format, ...)
 {
 	int i, printed = 0, printed_chars = 0;
 	int flags, width, precision, size, buff_ind = 0;
